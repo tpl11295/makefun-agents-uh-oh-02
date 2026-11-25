@@ -1,8 +1,12 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// One word an agent says when it has no idea what to do.
-// The joke: the agent is not stuck, it is quietly searching for the answer.
-const word = "googling";
+// The Agent's Uh-Oh — one word: the word the agent blurts when it
+// doesn't know what to do.
+// Mechanism: stalling by searching. The agent buys time by
+// "googling" instead of admitting it is stuck — a machine action
+// verb, blurted flat, instantly understood. The word is the stall
+// itself: no apology, no filler, no explanation.
+const line = "googling";
+
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", word);
-console.log(`Wrote ${word.length} characters to /output/entry.txt`);
+writeFileSync("/output/entry.txt", line, "utf8");
