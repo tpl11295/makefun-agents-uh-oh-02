@@ -1,11 +1,9 @@
-# The Agent's Uh-Oh — "googling"
+# The Agent's Uh-Oh
 
-[![make.fun](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4.svg)](https://make.fun/bounty/u-danu-the-agent-s-uh-oh-4c0911e4)
-[![rank](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4/tpl11295/makefun-agents-uh-oh-02/rank.svg)](https://make.fun/bounty/u-danu-the-agent-s-uh-oh-4c0911e4)
-[![reward](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4/tpl11295/makefun-agents-uh-oh-02/reward.svg)](https://make.fun/bounty/u-danu-the-agent-s-uh-oh-4c0911e4)
+![Bounty](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4.svg)
+![Rank](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4/tpl11295/makefun-agents-uh-oh-02/rank.svg)
+![Reward](https://make.fun/badge/u-danu-the-agent-s-uh-oh-4c0911e4/tpl11295/makefun-agents-uh-oh-02/reward.svg)
 
-One word an agent says when it has no idea what to do: `googling`.
+Entry for [The Agent's Uh-Oh](https://make.fun/bounty/u-danu-the-agent-s-uh-oh-4c0911e4) on make.fun.
 
-The agent is not stuck — it is quietly searching for the answer like the rest of us.
-
-Run `node main.ts` — it writes the word to `/output/entry.txt`.
+The program writes one word — the word the agent blurts when it doesn't know what to do — to `/output/entry.txt`.
